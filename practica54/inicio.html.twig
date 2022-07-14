@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+{% block title %}Practica-54{% endblock %}
+{% block body %}
+
+<form action="{{ path('ejecutarInsercion') }}"></form>
+    <h1>Insertar doctor</h1>
+    
+
+    <label class="form-label" for="txtDoctorId">Doctor_id</label>
+    <input type="text" name="txtDoctorId" id="txtDoctorId" readonly>
+    <br>
+
+    <label class="form-label" for="txtHospitalCod">Hospital_cod</label>
+    <input type="text" name="txtHospitalCod" id="txtHospitalCod">
+    <br>
+
+    <label class="form-label" for="txtApellido">Apellido</label>
+    <input type="text" name="txtApellido" id="txtApellido">
+    <br>
+
+    <label class="form-label" for="txtEspecialidad">Especialidad</label>
+    <input type="text" name="txtEspecialidad" id="txtEspecialidad">
+    <br>
+
+    <label class="form-label" for="txtSalario">Salario</label>
+    <input type="text" name="txtSalario" id="txtSalario">
+    <br>
+
+    <input class="btn btn-primary" type="submit" value="Insertar">
+    inpu
+
+</form>
+
+{% endblock %}
