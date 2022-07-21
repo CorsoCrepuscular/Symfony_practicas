@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Session</title>
+</head>
+
+<body>
+
+<h1 style="color:blue;">DATOS EN LA SESSION</h1>
+
+
+HOLA {{nombrevariable}}, {{apellidovariable}}
+<HR>
+   <H3>SE PUEDE ACCEDER A LAS VARIABLES DESDE LA PLANTILLA</H3>
+   {{ app.session.get('edad') }}, {{ app.session.get('altura') }}
+
+</body>
+</html>
