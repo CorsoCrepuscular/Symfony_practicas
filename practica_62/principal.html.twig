@@ -1,0 +1,22 @@
+<html>
+
+<head>
+</head>
+
+<body>
+<form style="background: green" action="{{ path('mostrarFormulario') }}">
+    <h1>INGRESOS DE PACIENTES</h1>
+    <label for="numeroSS">Número de la Seguridad Social </label>
+    <input type="text" name="numeroSS" id="numeroSS">
+    <br>
+    <input type="submit" value="Aceptar"
+    <br>
+</form>
+
+{% if mensaje is defined %}
+    {{ mensaje }}    
+{% endif %}
+
+</body>
+
+</html>
