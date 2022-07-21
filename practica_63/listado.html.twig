@@ -1,0 +1,22 @@
+<html>
+
+<body>
+<form action="{{ path('resumenEmpleados') }}">
+    <h1>Almacenar empleados con Session</h1> 
+    <ul>
+            {% for empleado in datos %}
+            <li>
+                {{empleado.apellido}}
+
+                <a href="{{ path('listaEmpleados', {ape: empleado.apellido, sal: empleado.salario}) }}" > Almacenar </a> 
+            </li> 
+            <a href=""></a>
+            {% endfor %}
+    </ul>
+    <button type="submit" name="datos" value="Session">Resumen de empleados</button>
+
+</form>
+</body>
+
+
+</html>
