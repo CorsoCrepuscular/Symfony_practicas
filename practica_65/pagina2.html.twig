@@ -1,0 +1,47 @@
+<html>
+
+<header>
+</header>
+
+<body>
+    <form action=""></form>
+        <h1> {% trans %} mensajeTitulo {% endtrans %} </h1>
+
+        <b> {% trans %} mensajeNombre {% endtrans %} </b>
+        <input type="text" name="txtNombre"/><BR>
+
+        <b> {% trans %} mensajePrimerApellido {% endtrans %} </b>
+        <input type="text" name="txtPrimerApellido" /><BR>
+
+        <b> {% trans %} mensajeSegundoApellido {% endtrans %} </b>
+        <input type="text" name="txtSegundoApellido" /><BR>
+
+        <b> {% trans %} mensajeTelefono {% endtrans %} </b>
+        <input type="text" name="txtTelefono" /><BR>
+
+        <b> {% trans %} mensajeEmail {% endtrans %} </b>
+        <input type="text" name="txtEmail" /><BR>
+
+        <b> {% trans %} mensajeConfirmarMail {% endtrans %} </b>
+        <input type="text" name="txtConfirmarMail" /><BR>
+
+        {% trans %} mensajeMiembro {% endtrans %}<BR>
+        <input type="radio" name="txtMiembro" id="txtMiembro" value="{% trans %} mensajeSi {% endtrans %}"> {% trans %} mensajeSi {% endtrans %}
+        <input type="radio" name="txtMiembro" id="txtMiembro" value="{% trans %} mensajeNo {% endtrans %}"> {% trans %} mensajeNo {% endtrans %}
+        <BR><BR>
+
+        {% trans %} mensajeMenor {% endtrans %}<BR>
+       <input type="radio" name="txtMiembro" id="txtMiembro" value="{% trans %} mensajeSi {% endtrans %}"> {% trans %} mensajeSi {% endtrans %}
+        <input type="radio" name="txtMiembro" id="txtMiembro" value="{% trans %} mensajeNo {% endtrans %}"> {% trans %} mensajeNo {% endtrans %}
+        <BR><BR>
+
+        {% trans %} mensajeResidencia {% endtrans %}<BR>
+       <input type="radio" name="txtMiembro" id="txtMiembro" value="{% trans %} mensajeSi {% endtrans %}"> {% trans %} mensajeSi {% endtrans %}
+        <input type="radio" name="txtMiembro" id="txtMiembro" value="{% trans %} mensajeNo {% endtrans %}"> {% trans %} mensajeNo {% endtrans %}
+        <BR><BR>
+
+        <input type="submit" value="{% trans %} mensajeAceptar {% endtrans %}">
+    
+    </form>
+</body>
+</html>

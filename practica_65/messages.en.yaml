@@ -1,0 +1,13 @@
+mensajeTitulo:          Personal information 
+mensajeNombre:          Name 
+mensajePrimerApellido:  Last name 1 
+mensajeSegundoApellido: Last name 2
+mensajeTelefono:        Phone
+mensajeEmail:           Email
+mensajeConfirmarMail:   To confirm mail
+mensajeMiembro:         Are you a Real Madrid membership?
+mensajeMenor:           Are you under 18 years of age?
+mensajeResidencia:      Do you live outside Spain?
+mensajeAceptar:         OK
+mensajeSi:              Yes 
+mensajeNo:              No

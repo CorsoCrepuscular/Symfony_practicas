@@ -1,0 +1,13 @@
+mensajeTitulo:          Información personal
+mensajeNombre:          Nombre 
+mensajePrimerApellido:  Primer apellido 
+mensajeSegundoApellido: Segundo apellido 
+mensajeTelefono:        Teléfono
+mensajeEmail:           Email
+mensajeConfirmarMail:   Confirmar mail
+mensajeMiembro:         ¿Eres socio del Real Madrid?
+mensajeMenor:           ¿Tienes menos de 18 años?
+mensajeResidencia:      ¿Resides fuera de España?
+mensajeAceptar:         Aceptar
+mensajeSi:              Si 
+mensajeNo:              No
